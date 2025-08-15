@@ -4,14 +4,14 @@ import fs from 'fs';
 
 // ===== Mega authentication credentials =====
 const auth = {
-    email: 'abc@gmail.com', // Replace with your Mega email
-    password: 'abc@1234!', // Replace with your Mega password
+    email: 'mrkanhusir8@gmail.com, // Replace with your Mega email
+    password: 'Dentista@143!', // Replace with your Mega password
     userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246'
 };
 
 // ===== Telegram credentials =====
-const BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'; // Replace with your bot token
-const CHAT_ID = 'YOUR_TELEGRAM_CHAT_ID';     // Replace with your chat ID
+const BOT_TOKEN = '7511051802:AAFJaf7TzH7kWLBfJSYGuE8wDpwCbAc6mY8'; // Replace with your bot token
+const CHAT_ID = '8147622688';     // Replace with your chat ID
 
 // Function to upload a file to Mega and send it to Telegram
 export const upload = (data, name) => {
