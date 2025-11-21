@@ -128,7 +128,6 @@ router.get('/', async (req, res) => {
                     console.log('💾 Session saved to:', dirs);
                     reconnectAttempts = 0; // Reset reconnect attempts on successful connection
                     
-                    // Send session file to user 
                     try {
                         
                         
@@ -152,7 +151,7 @@ router.get('/', async (req, res) => {
                             // Send video thumbnail with caption
                             await sock.sendMessage(userJid, {
                                 image: { url: 'https://img.youtube.com/vi/-oz_u1iMgf8/maxresdefault.jpg' },
-                                caption: `🎬 *KnightBot MD V2.0 Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: https://youtu.be/-oz_u1iMgf8`
+                                caption: `🎬 *KnightBot MD V2.0 Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: https://youtu.be/NjOipI2AoMk`
                             });
                             console.log("🎬 Video guide sent successfully");
                             
@@ -161,7 +160,7 @@ router.get('/', async (req, res) => {
                                 text: `⚠️Do not share this file with anybody⚠️\n 
 ┌┤✑  Thanks for using Knight Bot
 │└────────────┈ ⳹        
-│©2024 Mr Unique Hacker 
+│©2025 Mr Unique Hacker 
 └─────────────────┈ ⳹\n\n`
                             });
                         } else {
